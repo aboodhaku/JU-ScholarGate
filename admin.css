@@ -1,0 +1,164 @@
+@import url();
+* {
+margin:0;
+padding:0;
+box-sizing:border-box
+font-family:"poppins" , sans-serif;
+
+}
+
+body{   
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+/*background: url('C:/Users/this pc/Desktop/img2.jpeg') no-repeat ;*/
+background-color: rgb(245, 248, 245);
+background-size: cover;
+background-position: center;
+
+}
+
+.wrapper {
+width: 420px ;
+background: transparent;
+backdrop-filter: blur(4px);
+box-shadow: 0 0 10px rgba(0, 0, 0, alpha);
+width: 470px;
+    border: 3px solid #004b35;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 28px;
+}
+
+
+
+.wrapper h1{
+
+font-size: 40px;
+text-align: center;
+color: #004b35;;
+
+    
+}
+
+
+.wrapper .input-box{
+position: relative;
+width: 100%;
+height: 50px;
+margin: 30px 0 ;
+border: 2px solid #004b35;
+border-radius: 40px;
+
+
+}
+
+
+.input-box input{
+width:100% ;
+height:100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(252, 252, 252, 0.2);
+border-radius: 40px;
+font-size: 17px;
+color: white;
+padding-left: 18px;
+
+
+
+
+}
+
+.input-box input::placeholder{
+color: whitesmoke;
+color: #004b35;;
+
+}
+
+.input-box i{
+position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 20px;
+
+
+}
+
+.wrapper .Remmember-forget{
+font-size: 15px;
+color: rgb(252, 248, 248);
+display: flex;
+justify-content: space-between;
+margin: -15px 0 15px;
+color: #004b35;;
+
+
+}
+
+.Remmember-forget label input{
+
+accent-color: #e2d9d9;
+margin-right: 3px ;
+vertical-align: bottom;
+bottom: 1px;
+color: #004b35;;
+
+}
+
+.Remmember-forget a{
+color: white;
+text-decoration: none;
+text-align: right;
+color: #004b35;;
+
+}
+
+.Remmember-forget a:hover{
+text-decoration: underline;
+color: #004b35;;
+
+
+}
+.wrapper .nnn {
+border-radius: 30px;
+width: 100%;
+height: 40px;
+background: #fff;
+color: white;
+font-weight: 600;
+color: #004b35;;
+
+
+}
+.wrapper .register-link{
+font-size: 15px;
+color: #fff;
+text-align: center;
+margin: 20px 0 15px;
+color: #004b35;;
+
+
+
+
+}
+
+.register-link p a {
+color: #fff;
+font-weight: 600px;
+color: #004b35;;
+
+
+}
+
+.register-link p a:hover{
+text-decoration: underline;
+
+
+}
+
+
